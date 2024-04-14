@@ -1,3 +1,92 @@
+
 @media screen and (max-width:1200px) {
     
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Poppins", sans-serif;
+}
+
+h1{
+    font-size: 2.027rem;
+    font-weight: ;
+}
+h2{
+    font-size: 1.802rem;
+    font-weight: 450;
+}
+h3{
+    font-size: 1.266rem;
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+.sweetheart{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.sweetheartimg{
+    width: 25%;
+}
+
+img{
+    border-radius:25px ;
+    width:100%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    :nth-child(1){
+        grid-column: 1/2;
+    }
+    :nth-child(2){
+        grid-column: 4/5;
+    }
+    /* display:flex;
+    justify-content: space-between; */
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display:inline;
+    float: left;
+}
+
+a:link{
+    color:#000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+a:visited{
+    color:#000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    border: #000;
+    border-radius: 5%;
+    padding:5px 15px;
+}
+
+.behind{
+    display: flex;
 }
