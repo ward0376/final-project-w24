@@ -87,6 +87,30 @@ button{
     padding:5px 15px;
 }
 
-.behind{
-    display: flex;
+.behind-the-dough{
+    background-color: #f8fafc;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    :nth-child(1){
+        grid-column: 1/3;
+        text-align:center;
+    }
+}
+
+.what-people-are-saying{
+    background-color: #000;
+    color:#fff;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    :nth-child(1){
+        grid-column: 1/3;
+        text-align:center;
+    }
+    .q{
+        grid-column:1/3;
+    }
 }
